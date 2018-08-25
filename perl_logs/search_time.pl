@@ -9,6 +9,6 @@ foreach my $orgLine (<IN>) {
     $line = $orgLine;
     chomp($line); 
     (my $date, my $time, my $uid, my $char, my $user, my $text) = split('\t', $line);
-    print $orgLine if ($time ge $timeFrom and $time le $timeTo);
+    print $orgLine if (defined $time and $time ge $timeFrom and $time le $timeTo);
 }
 close(IN);
