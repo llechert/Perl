@@ -1,3 +1,4 @@
+# License GNU GPL v3.0
 use strict;
 
 my $line = '';
