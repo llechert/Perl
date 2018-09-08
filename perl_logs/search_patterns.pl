@@ -1,5 +1,6 @@
 # License GNU GPL v3.0
 use strict;
+# OR searching
 
 my $line     = '';
 my $counter  = 0;
